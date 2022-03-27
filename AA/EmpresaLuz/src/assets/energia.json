@@ -1,0 +1,74 @@
+[
+  {
+    "CENTROS": "Ayuntamiento",
+    "KWH ACTIVOS": "0",
+    "KWH LLANO": "210 509",
+    "KWH VALLE": "83 872",
+    "KWH PUNTA": "76 595",
+    "KWH REACTIVA": "133 631"
+  },
+  {
+    "CENTROS": "Centros Culturales",
+    "KWH ACTIVOS": "31 370",
+    "KWH LLANO": "249 211",
+    "KWH VALLE": "101 861",
+    "KWH PUNTA": "87 325",
+    "KWH REACTIVA": "165 315"
+  },
+  {
+    "CENTROS": "Centros Deportivos",
+    "KWH ACTIVOS": "0",
+    "KWH LLANO": "733 933",
+    "KWH VALLE": "575 884",
+    "KWH PUNTA": "373 360",
+    "KWH REACTIVA": "478 274"
+  },
+  {
+    "CENTROS": "Edificios Municipales",
+    "KWH ACTIVOS": "251 094",
+    "KWH LLANO": "936 764",
+    "KWH VALLE": "500 796",
+    "KWH PUNTA": "350 558",
+    "KWH REACTIVA": "1 210 223"
+  },
+  {
+    "CENTROS": "Educacion",
+    "KWH ACTIVOS": "95 082",
+    "KWH LLANO": "384 986",
+    "KWH VALLE": "146 478",
+    "KWH PUNTA": "152 194",
+    "KWH REACTIVA": "66 378"
+  },
+  {
+    "CENTROS": "Parques",
+    "KWH ACTIVOS": "0",
+    "KWH LLANO": "0",
+    "KWH VALLE": "41 549",
+    "KWH PUNTA": "37 103",
+    "KWH REACTIVA": "0"
+  },
+  {
+    "CENTROS": "Fuentes",
+    "KWH ACTIVOS": "17 527",
+    "KWH LLANO": "128 707",
+    "KWH VALLE": "40",
+    "KWH PUNTA": "78 632",
+    "KWH REACTIVA": "139 457"
+  },
+  {
+    "CENTROS": "Semaforos",
+    "KWH ACTIVOS": "768",
+    "KWH LLANO": "0",
+    "KWH VALLE": "0",
+    "KWH PUNTA": "0",
+    "KWH REACTIVA": "0"
+  },
+  {
+    "CENTROS": "Servicios Sociales",
+    "KWH ACTIVOS": "36 863",
+    "KWH LLANO": "49 984",
+    "KWH VALLE": "18 532",
+    "KWH PUNTA": "14 106",
+    "KWH REACTIVA": "33 782"
+  }
+]

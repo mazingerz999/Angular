@@ -1,0 +1,74 @@
+[
+  {
+    "CENTROS": "Ayuntamiento",
+    "KWHACTIVOS": "0",
+    "KWHLLANO": "210509",
+    "KWHVALLE": "83872",
+    "KWHPUNTA": "76595",
+    "KWHREACTIVA": "133631"
+  },
+  {
+    "CENTROS": "Centros Culturales",
+    "KWHACTIVOS": "31370",
+    "KWHLLANO": "249211",
+    "KWHVALLE": "101861",
+    "KWHPUNTA": "87325",
+    "KWHREACTIVA": "165315"
+  },
+  {
+    "CENTROS": "Centros Deportivos",
+    "KWHACTIVOS": "0",
+    "KWHLLANO": "733933",
+    "KWHVALLE": "575884",
+    "KWHPUNTA": "373360",
+    "KWHREACTIVA": "478274"
+  },
+  {
+    "CENTROS": "Edificios Municipales",
+    "KWHACTIVOS": "251094",
+    "KWHLLANO": "936764",
+    "KWHVALLE": "500796",
+    "KWHPUNTA": "350558",
+    "KWHREACTIVA": "1210223"
+  },
+  {
+    "CENTROS": "Educacion",
+    "KWHACTIVOS": "95082",
+    "KWHLLANO": "384986",
+    "KWHVALLE": "146478",
+    "KWHPUNTA": "152194",
+    "KWHREACTIVA": "66378"
+  },
+  {
+    "CENTROS": "Parques",
+    "KWHACTIVOS": "0",
+    "KWHLLANO": "0",
+    "KWHVALLE": "41549",
+    "KWHPUNTA": "37103",
+    "KWHREACTIVA": "0"
+  },
+  {
+    "CENTROS": "Fuentes",
+    "KWHACTIVOS": "17527",
+    "KWHLLANO": "128707",
+    "KWHVALLE": "40",
+    "KWHPUNTA": "78632",
+    "KWHREACTIVA": "139457"
+  },
+  {
+    "CENTROS": "Semaforos",
+    "KWHACTIVOS": "768",
+    "KWHLLANO": "0",
+    "KWHVALLE": "0",
+    "KWHPUNTA": "0",
+    "KWHREACTIVA": "0"
+  },
+  {
+    "CENTROS": "Servicios Sociales",
+    "KWHACTIVOS": "36863",
+    "KWHLLANO": "49984",
+    "KWHVALLE": "18532",
+    "KWHPUNTA": "14106",
+    "KWHREACTIVA": "33782"
+  }
+]

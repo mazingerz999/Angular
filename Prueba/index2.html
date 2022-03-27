@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>APP PRUEBA</title>
+<!-- css del bootstrap y del estilo propio -->
+<link rel="stylesheet" type="text/css" href="code/styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="code/styles/style.css">
+<!-- fuentes utilizadas -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
+<!-- iconos del fontawesome -->
+<link rel="stylesheet" type="text/css" href="code/fonts/css/fontawesome-all.min.css">    
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="code/app/icons/icon-192x192.png">
+</head>
+<body class="bg-mint-light" data-background="none" data-highlight="red2">
+
+<!-- funcion preloader que ya viene por defecto hecho con jquery -->
+<!-- <div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div> -->
+
+<div id="page">
+ 
+    <!-- Aqui tengo el header de la web, la linea de abajo es la posicion del logo y donde iran los 4 iconos, en este  caso lo voy a poner center-->
+    <div class="header header-fixed header-logo-center">
+        <a href="index.html" class="header-title">Mi Aplicación</a>
+        <!-- Principio modal de bootstrap para enviar una critica o mensaje -->
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" class="header-icon header-icon-1"><i class="fas fa-envelope"></i><span class="badge bg-green1-dark">5</span></a>  
+        <!-- FIN MODAL -->   
+        <a class="header-icon header-icon-2" data-menu="menu-sidebar-left-1" href="#">
+          <i class="fa font-14 fa-align-left color-yellow-dark"></i>
+      </a>
+        <a href="#" class="header-icon header-icon-3"><i class="fas fa-heart color-red2-light"></i></a>
+        <a href="#" class="header-icon header-icon-4"><i class="fas fa-share-alt"></i></a>
+    </div>
+    <!-- Footer Bar will be added here -->
+    <div id="footer-bar" class="footer-bar-1">
+      <a href="#"><i class="fa fa-home"></i><span>Home</span></a>
+      <a href="#" class="active-nav"><i class="fa fa-star"></i><span>Features</span></a>
+      <a href="#"><i class="fa fa-heart"></i><span>Pages</span></a>
+      <a href="#"><i class="fa fa-search"></i><span>Search</span></a>
+      <a href="#"><i class="fa fa-cog"></i><span>Settings</span></a>
+  </div>
+
+
+        <!-- Add your Canvas Elements - meanign - Components and Page Elements Here-->
+
+        <div class="page-content pb-0">
+
+            <div data-card-height="cover" class="card bg-theme mb-0">
+                <div class="card-center text-center">
+                    <h1 class="font-34 font-900 mb-0">NOMBRE DE LA APP</h1>
+                    <p class="font-12 mt-n1">MENÚ MOVIL</p>
+    
+                    <div class="row mx-auto mt-3 mb-0" style="max-width:320px;">
+                        <div class="col-4">
+                            <a data-toggle-theme href="#" class="icon icon-xxl bg-yellow-dark rounded-xl mb-1"><i class="fa fa-moon"></i></a>
+                            <p>Dark Mode</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="index-components.html" class="icon icon-xxl bg-blue-dark rounded-xl mb-1"><i class="fa fa-cog"></i></a>
+                            <p>Components</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="component-sidebars.html" class="icon icon-xxl bg-red-dark rounded-xl mb-1"><i class="fa fa-bars"></i></a>
+                            <p>Menus</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="media.html" class="icon icon-xxl bg-blue-dark rounded-xl mb-1"><i class="fa fa-camera"></i></a>
+                            <p>Gallery</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="media.html" class="icon icon-xxl bg-orange-dark rounded-xl mb-1"><i class="fa fa-image"></i></a>
+                            <p>Portfolio</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="index-pages.html" class="icon icon-xxl bg-brown-dark rounded-xl mb-1"><i class="fa fa-file"></i></a>
+                            <p>Pages</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="#" data-menu="menu-settings" class="icon icon-xxl bg-mint-dark rounded-xl mb-1"><i class="fa fa-cog"></i></a>
+                            <p>Settings</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="tel:+1 2345 6789" class="default-link icon icon-xxl bg-green-dark rounded-xl mb-1"><i class="fa fa-phone"></i></a>
+                            <p>Call</p>
+                        </div>
+                        <div class="col-4">
+                            <a href="page-contact.html" class="icon icon-xxl bg-blue-dark rounded-xl mb-1"><i class="fa fa-envelope"></i></a>
+                            <p>Email</p>
+                        </div>
+                    </div>
+    
+                    <div class="row mx-auto mt-2 mb-0" style="max-width:190px;">
+                        <div class="col-4">
+                            <a href="#" class="icon icon-xxs bg-facebook rounded-xl mb-2"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="#" class="icon icon-xxs bg-twitter rounded-xl mb-2"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="#" class="icon icon-xxs bg-instagram rounded-xl mb-2"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+    
+                    <p class="opacity-60 font-10">Copyright <span class="copyright-year"></span> Enabled. All rights reserved</p>
+    
+    
+                </div>
+            </div>
+
+
+    </div>    
+     
+    <!-- CONTENIDO, LO IMPORTANTE -->
+
+    <!-- Off Canvas Elements Here -->
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Nuevo Mensaje</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Destinatario:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Mensaje:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn bg-mint-dark">Enviar Mensaje</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>    
+
+<script>
+    var exampleModal = document.getElementById('exampleModal')
+    exampleModal.addEventListener('show.bs.modal', function (event) {
+    // Button that triggered the modal
+    var button = event.relatedTarget
+    // Extract info from data-bs-* attributes
+    var recipient = button.getAttribute('data-bs-whatever')
+    // If necessary, you could initiate an AJAX request here
+    // and then do the updating in a callback.
+    //
+    // Update the modal's content.
+    var modalTitle = exampleModal.querySelector('.modal-title')
+    var modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+    modalTitle.textContent = 'Razón del mensaje' + recipient
+    modalBodyInput.value = recipient
+})
+
+    </script>
+    <!-- caja modal -->
+
+<script type="text/javascript" src="code/scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="code/scripts/custom.js"></script>
+</body>
